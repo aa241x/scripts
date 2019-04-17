@@ -11,8 +11,8 @@ The main steps required:
 
  2. Enable Raspberry PiCam
      - run `sudo raspi-config`
-     - select `Enable Hardware` and select `Camera`
-     - all the restart
+     - select `Interfacing Options` and select `P1 Camera`
+     - select no on the restart
 
  3. Connect to Internet
      - Connect to `Stanford Visitor`
@@ -20,9 +20,10 @@ The main steps required:
      - Open Firefox and accept the Stanford terms to get internet access
 
  4. Run Install Script
-     - either clone it from online (need to install git with `sudo apt-get install git`) or bring it in with flash drive
-     - make script runnable (`sudo chmod +x /path/to/script.sh`)
-     - run script (e.g. `./script.sh`)
+     - clone it from online (need to install git with `sudo apt-get install git` and then clone with `git clone https://github.com/aa241x/scripts.git`)
+     - navigate into the directory (`cd scripts`)
+     - make script runnable (`sudo chmod +x install_everything.sh`)
+     - run script (e.g. `./install_everything.sh`)
      - type sudo password when prompted
  
  5. Configure Internet
