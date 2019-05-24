@@ -6,7 +6,7 @@
 cd ~/src/Firmware
 export PX4_HOME_LAT=37.423881
 export PX4_HOME_LON=-122.177493
-export PX4_HOME_ALT=28
+export PX4_HOME_ALT=40
 # TODO: figure out the correct altitude for the "floor" of Lake Lag
 
 make posix_sitl_default gazebo
